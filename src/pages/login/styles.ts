@@ -4,7 +4,7 @@ export const Container = styled.div`
   height: 95%;
   max-width: 28rem;
   margin: 0 auto;
-  padding: 5% auto;
+  padding: 2.5% auto;
   position: relative;
 `;
 
@@ -16,12 +16,12 @@ export const Wrapper = styled.div`
 
 export const ImageContainer = styled.div`
   position: absolute;
-  top: 0.5rem;
+  top: 1rem;
 `;
 
 export const ButtonsContainer = styled.div`
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 1rem;
   left: 0;
   right: 0;
 `;

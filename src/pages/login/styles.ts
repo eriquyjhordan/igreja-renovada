@@ -4,13 +4,13 @@ export const Container = styled.div`
   height: 95%;
   max-width: 28rem;
   margin: 0 auto;
-  padding: 2.5% auto;
+  padding: 5% auto;
   position: relative;
 `;
 
 export const Wrapper = styled.div`
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: #216095;
 `;
 

@@ -21,7 +21,7 @@ export const ImageContainer = styled.div`
 
 export const ButtonsContainer = styled.div`
   position: absolute;
-  bottom: 1rem;
+  bottom: 2rem;
   left: 0;
   right: 0;
 `;

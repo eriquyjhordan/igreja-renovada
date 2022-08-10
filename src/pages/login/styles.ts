@@ -30,7 +30,7 @@ export const ButtonSignIn = styled.button`
   background-color: #fff;
   color: #216095;
   border-radius: 0.8rem;
-  height: 3.5rem;
+  height: 4rem;
   font-size: 1.6rem;
   display: block;
 `;
@@ -39,8 +39,8 @@ export const ButtonSignUp = styled.button`
   color: #fff;
   border-radius: 0.8rem;
   border: 1px solid #fff;
-  height: 3.5rem;
+  height: 4rem;
   font-size: 1.6rem;
   display: block;
-  margin-top: 1.6rem;
+  margin-top: 2.4rem;
 `;

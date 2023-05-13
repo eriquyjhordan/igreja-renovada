@@ -1,3 +1,4 @@
+import Bible from '@/components/Blible'
 import Family from '@/components/Family'
 import Header from '@/components/header'
 
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Header />
       <Family />
+      <Bible />
     </>
   )
 }

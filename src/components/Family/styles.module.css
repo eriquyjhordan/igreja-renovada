@@ -79,3 +79,24 @@
 .familyTexts {
   max-width: 50%;
 }
+
+.mobileGallery {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .familyWrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imagesGalery {
+    display: none;
+  }
+
+  .mobileGallery {
+    display: block;
+    max-width: 32.5rem;
+  }
+}

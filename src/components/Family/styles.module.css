@@ -1,0 +1,81 @@
+.content {
+  max-width: 76rem;
+  margin: 0 auto;
+}
+
+.faithWrapper {
+  margin-top: 7rem;
+}
+
+.faithTitle {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  color: #194C76;
+  text-align: center;
+}
+
+.faithDescription {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+  color: #394249;
+  max-width: 520px;
+  margin: 1rem auto 0;
+}
+
+.faithLine {
+  margin: 4.5rem 0;
+  height: 0.0625rem;
+  color: rgba(85, 96, 105, 0.1);
+}
+
+.familyLeadText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4D5A5F;
+  margin-bottom: 0.5rem;
+}
+
+.familyTitle {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 125%;
+  color: #001C26;
+  margin-bottom: 1.5rem;
+  max-width: 28.125rem;
+}
+
+.familyParagraph {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 150%;
+  color: #334248;
+  margin-bottom: 2.25rem;
+  text-align: justify;
+}
+
+.familyLink {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 125%;
+  color: #008BC5;
+}
+
+.familyWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagesGalery {
+  max-width: 50%;
+  color: #001C26;
+}
+
+.familyTexts {
+  max-width: 50%;
+}

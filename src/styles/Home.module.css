@@ -169,36 +169,17 @@
   }
 
   .titleWrapper {
-    margin-top: 5rem;
+    margin-top: 4.375rem;
   }
 
   .title {
-    font-size: 2.25rem;
+    font-size: 40px;
     line-height: 150%;
   }
 
   .subTitle {
-    font-size: 1rem;
+    font-size: 1.125rem;
     line-height: 150%;
-    margin-top: 1rem;
-  }
-}
-
-@media (max-width: 440px) {
-  .principleItem>img {
-    width: 80%;
-  }
-
-  .principlesText {
-    font-size: 0.875rem;
-  }
-
-  .title {
-    font-size: 1.875rem;
-  }
-
-  .subTitle {
-    font-size: 14px;
     margin-top: 1rem;
   }
 }

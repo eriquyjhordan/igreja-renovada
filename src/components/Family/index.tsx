@@ -1,6 +1,7 @@
 import { Inter, Poppins } from 'next/font/google'
 import styles from './styles.module.css'
 import Image from 'next/image'
+import Gallery from '../Gallery'
 
 const inter = Inter({ subsets: ['latin'] })
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '700'], })
@@ -16,7 +17,7 @@ export default function Family() {
         <hr className={styles.faithLine} />
         <section className={styles.familyWrapper}>
           <div className={styles.imagesGalery}>
-            Galeria de imagens
+            <Gallery />
           </div>
           <div className={styles.familyTexts}>
             <p className={`${poppins.className} ${styles.familyLeadText}`}>Família é a base de tudo</p>

@@ -4,6 +4,7 @@
   min-width: 100vw;
   background-position: right;
   background-size: cover;
+  background-repeat: no-repeat;
   padding: 0.4rem 0;
   position: relative;
 }
@@ -180,26 +181,22 @@
 }
 
 @media (max-width: 440px) {
-  .principles {
-    width: 21.875rem;
-    height: 5.625rem;
-    bottom: -5.625rem;
+  .container {
+    aspect-ratio: 10/9;
   }
 
-
+  .principles {
+    width: 500px;
+    height: 6.25rem;
+    bottom: -6.25rem;
+  }
 
   .header>img {
     width: 35%;
   }
 
-  .hambugerMenu {
-    width: 2rem;
-    height: 2rem;
-  }
-
-
   .principleItem>img {
-    width: 60%;
+    width: 80%;
   }
 
   .principlesText {

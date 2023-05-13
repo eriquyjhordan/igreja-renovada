@@ -186,9 +186,17 @@
     bottom: -5.625rem;
   }
 
-  .titleWrapper {
-    margin-top: 5rem;
+
+
+  .header>img {
+    width: 35%;
   }
+
+  .hambugerMenu {
+    width: 2rem;
+    height: 2rem;
+  }
+
 
   .principleItem>img {
     width: 60%;
@@ -223,13 +231,8 @@
     font-size: 0.75rem;
   }
 
-  .header>img {
-    width: 35%;
-  }
-
-  .hambugerMenu {
-    width: 2rem;
-    height: 2rem;
+  .titleWrapper {
+    margin-top: 75px;
   }
 
   .title {

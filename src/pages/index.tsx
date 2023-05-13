@@ -58,6 +58,7 @@ export default function Home() {
                 width={96}
                 height={15.82}
                 alt="evangelismo"
+                className={styles.evangelismImage}
               />
               <p className={`${inter.className} ${styles.principlesText}`}>Evangelismo</p>
             </div>

@@ -157,6 +157,10 @@
   .principleItem>img {
     width: 70%;
   }
+
+  .evangelismImage {
+    width: 9rem !important;
+  }
 }
 
 @media (max-width: 560px) {

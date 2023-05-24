@@ -1,6 +1,7 @@
 .content {
   max-width: 76rem;
   margin: 0 auto;
+  padding-inline: 1.5rem;
 }
 
 .faithWrapper {
@@ -91,6 +92,10 @@
     justify-content: center;
   }
 
+  .familyTexts {
+    max-width: 100%;
+  }
+
   .imagesGalery {
     display: none;
   }
@@ -98,5 +103,25 @@
   .mobileGallery {
     display: block;
     max-width: 32.5rem;
+  }
+
+}
+
+@media (max-width: 425px) {
+  .familyTitle {
+    font-size: 1.75rem;
+  }
+
+  .familyParagraph {
+    font-size: 0.875rem;
+  }
+
+  .familyLink {
+    font-size: 0.875rem;
+  }
+
+  .faithDescription {
+    font-size: 14px;
+    width: 100%;
   }
 }

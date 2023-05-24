@@ -1,6 +1,6 @@
 .container {
   background-image: url('/images/header.webp');
-  min-height: 62.5vh;
+  min-height: 31.25rem;
   min-width: 100vw;
   background-position: right;
   background-size: cover;
@@ -12,6 +12,7 @@
 .content {
   max-width: 76rem;
   margin: 0 auto;
+  padding-inline: 2rem;
 }
 
 .linksContainer {
@@ -106,19 +107,7 @@
   display: none;
 }
 
-@media (max-width: 1250px) {
-  .content {
-    padding-inline: 2rem;
-  }
-}
-
 @media (max-width: 960px) {
-  .principles {
-    width: 43.75rem;
-  }
-}
-
-@media (max-width: 840px) {
   .linksContainer {
     display: none;
   }
@@ -126,21 +115,27 @@
   .hambugerMenu {
     display: block;
   }
-}
 
-@media (max-width: 740px) {
   .principles {
-    width: 37.5rem;
+    width: 90%;
   }
 
-  .principleItem>img {
+  .principlesText {
+    font-size: 1rem;
+  }
+
+  .principleImage {
     width: 40%;
   }
+
+  .evangelismImage {
+    width: 100%;
+  }
 }
 
-@media (max-width: 650px) {
-  .principles {
-    width: 31.25rem;
+@media (max-width: 660px) {
+  .container {
+    background-image: url('/images/headerMobile.webp');
   }
 
   .principleItem {
@@ -148,42 +143,37 @@
   }
 
   .principlesText {
-    font-size: 1rem;
-    text-align: center;
-    margin-left: 0;
-    margin-top: 0.2rem;
+    margin: 0;
+    font-size: 12px;
   }
 
-  .principleItem>img {
-    width: 70%;
+  .principleImage {
+    width: 45%;
+    margin-bottom: 0.1rem;
   }
 
   .evangelismImage {
-    width: 9rem !important;
-  }
-}
-
-@media (max-width: 560px) {
-  .container {
-    aspect-ratio: 10/9;
+    width: 95%;
+    margin-bottom: 0.4rem;
   }
 
   .principles {
-    width: 31.25rem;
-  }
-
-  .titleWrapper {
-    margin-top: 3.125rem;
+    height: 80px;
+    bottom: -80px;
+    align-items: center;
   }
 
   .title {
-    font-size: 40px;
-    line-height: 150%;
+    font-size: 32px;
+    line-height: normal;
   }
 
   .subTitle {
-    font-size: 1.125rem;
-    line-height: 150%;
-    margin-top: 1rem;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .logo {
+    width: 6.25rem;
   }
 }

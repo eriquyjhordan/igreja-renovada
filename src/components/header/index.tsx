@@ -16,6 +16,7 @@ export default function Header() {
               width={137}
               height={89}
               alt='logo igreja renovada'
+              className={styles.logo}
             />
             <nav className={`${inter.className} ${styles.linksContainer}`}>
               <a href="#" className={styles.link}>Início</a>
@@ -46,6 +47,7 @@ export default function Header() {
                 width={72}
                 height={51.53}
                 alt="familia"
+                className={styles.principleImage}
               />
               <p className={`${inter.className} ${styles.principlesText}`}>Família</p>
             </div>
@@ -57,7 +59,7 @@ export default function Header() {
                 width={144}
                 height={24}
                 alt="evangelismo"
-                className={styles.evangelismImage}
+                className={`${styles.evangelismImage} ${styles.principleImage}`}
               />
               <p className={`${inter.className} ${styles.principlesText}`}>Evangelismo</p>
             </div>
@@ -69,8 +71,10 @@ export default function Header() {
                 width={72}
                 height={52}
                 alt="Ação Social"
+                className={styles.principleImage}
+
               />
-              <p className={`${inter.className} ${styles.principlesText}`}>Ação <br /> social</p>
+              <p className={`${inter.className} ${styles.principlesText}`}>Ação social</p>
             </div>
           </a>
         </div>

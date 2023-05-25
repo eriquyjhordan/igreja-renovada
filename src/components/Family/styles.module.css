@@ -65,6 +65,11 @@
   font-size: 1rem;
   line-height: 125%;
   color: #00537A;
+  transition: all 0.3s;
+}
+
+.familyLink:hover {
+  color: #001C26;
 }
 
 .familyWrapper {

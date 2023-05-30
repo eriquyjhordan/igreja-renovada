@@ -1,0 +1,10 @@
+.familyWrapper {
+  background-color: #F4F7FA;
+  padding-bottom: 8.75rem;
+}
+
+@media (max-width: 690px) {
+  .familyWrapper {
+    padding-bottom: 5rem;
+  }
+}

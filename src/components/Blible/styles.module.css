@@ -67,26 +67,15 @@
   }
 
   .blogLead {
-    font-weight: 500;
     font-size: 12px;
-    line-height: 125%;
-    color: #334248;
   }
 
   .blogTitle {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 125%;
-    color: #001C26;
+    font-size: 16px;
   }
 
   .blobLink {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
     font-size: 10px;
-    color: #008BC5;
   }
 
 }

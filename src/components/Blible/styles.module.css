@@ -6,8 +6,9 @@
 
 .blogHeader {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
+  margin-top: 3.5rem;
 }
 
 .blogLead {
@@ -31,4 +32,37 @@
   font-weight: 600;
   font-size: 1rem;
   color: #008BC5;
+}
+
+.slides {
+  margin: 3.375rem 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 33%;
+  gap: 1rem;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slides::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+  background: #3342488b;
+  border-radius: 10px;
+}
+
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@media (max-width:690px) {
+  .slides {
+    grid-auto-columns: 90%;
+  }
 }

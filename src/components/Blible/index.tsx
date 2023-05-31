@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Inter, Poppins } from 'next/font/google'
 import styles from './styles.module.css'
+import BlogCard from '../BlogCard'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -24,6 +25,18 @@ export default function Bible() {
           />
           Veja todos os estudos
         </a>
+      </div>
+      <div className={styles.slides}>
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
       </div>
     </div>
   )

@@ -1,0 +1,20 @@
+.cardImage {
+  border-radius: 16px;
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 125%;
+  color: #216095;
+  margin-bottom: 0.5rem;
+}
+
+.cardText {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #001C26;
+  max-width: 23.9375rem;
+}

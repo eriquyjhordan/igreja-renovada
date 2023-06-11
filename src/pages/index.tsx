@@ -2,6 +2,7 @@ import Bible from '@/components/Blible'
 import Family from '@/components/Family'
 import Header from '@/components/header'
 import styles from '../styles/Home.module.css'
+import SocialActions from '@/components/SocialActions'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Family />
       </div>
       <Bible />
+      <SocialActions />
     </>
   )
 }

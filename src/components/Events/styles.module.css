@@ -1,0 +1,49 @@
+.wrapper {
+  padding-block: 6rem;
+}
+
+.content {
+  max-width: 76rem;
+  margin: 0 auto;
+  padding-inline: 1.5rem;
+}
+
+.leadText {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #334248;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 125%;
+  color: #001C26;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .leadText {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+}

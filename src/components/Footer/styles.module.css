@@ -1,0 +1,93 @@
+.footer {
+  background: #1B5E91;
+  padding: 2.625rem;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 76rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  gap: 1.5rem;
+
+}
+
+.copyright {
+  width: 100%;
+  max-width: 76rem;
+  padding-top: 1.5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  max-width: 320px;
+}
+
+.logo {
+  margin-bottom: 1.5rem;
+}
+
+.socialNetworkTitle {
+  margin-top: 1.5rem;
+}
+
+.socialNetworkWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 320px;
+}
+
+.institutional, .membersLinks, .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.login {
+  border-radius: 1.25rem;
+  border: 1px solid #FBE1E2;
+  padding: 0.5rem 5rem;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.login:hover {
+  background: #eff5fa;
+  color: #1B5E91;
+}
+
+.picpay {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: 0.2s all ease-in-out ;
+}
+
+.contact {
+  align-items: center;
+}
+
+.links {
+  margin-top: 2.5rem;
+}
+
+.picpay {
+  margin-top: 1.875rem;
+}
+
+.links a:hover, .contactLink:hover, .picpay:hover {
+  text-decoration: underline;
+}

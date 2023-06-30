@@ -4,6 +4,7 @@ import Header from '@/components/header'
 import Events from '@/components/Events'
 import styles from '../styles/Home.module.css'
 import SocialActions from '@/components/SocialActions'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Bible />
       <SocialActions />
       <Events />
+      <Footer />
     </>
   )
 }

@@ -91,3 +91,77 @@
 .links a:hover, .contactLink:hover, .picpay:hover {
   text-decoration: underline;
 }
+@media (max-width: 960px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 580px;
+  }
+
+  .about {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socialNetworkWrapper {
+    justify-content: center;
+  }
+
+  .description {
+    max-width: 465px;
+    text-align: center;
+  }
+
+  .section-row {
+    flex-basis: 100%;
+  }
+
+  .picpay {
+    margin-top: 0;
+  }
+
+  
+
+  .institutional,
+  .membersLinks {
+    display: flex;
+  }
+
+
+  .institutional {
+    width: 208px;
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 54px !important;
+  }
+
+  .membersLinks {
+    margin-top: 54px;
+    width: 176px;
+    text-align: center;
+    margin-inline: auto;
+  }
+
+  .contact {
+    flex-basis: 100%;
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .links {
+    margin-top: 0;
+  }
+  .copyright {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .contact {
+    flex-direction: column;
+  }
+}

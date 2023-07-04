@@ -58,22 +58,24 @@ export default function Footer() {
         </div>
         <div className={styles.contact}>
           <Link href="" className={styles.login}>Login</Link>
-          <a href="" className={styles.picpay}>
-            <Image
-              src='/simple-icons_picpay.svg'
-              alt='picpay logo'
-              width={20}
-              height={20}
-            />
-            Faça uma Doação
-          </a>
-          <a href="" className={styles.contactLink}>Entre em contato</a>
+          <div style={{ display: 'flex', alignItems: 'flex-end', flexDirection: 'column', gap: '1.5rem' }}>
+            <a href="" className={styles.picpay}>
+              <Image
+                src='/simple-icons_picpay.svg'
+                alt='picpay logo'
+                width={20}
+                height={20}
+              />
+              Faça uma Doação
+            </a>
+            <a href="" className={styles.contactLink}>Entre em contato</a>
+          </div>
         </div>        
       </div>
       <hr style={{ maxWidth: '76rem', margin: '0 auto' }}  /> 
       <div>
         <div className={styles.copyright}>
-          <p className={styles.church}>2022 &copy; Todos os direitos reservados. <span className={styles.churchName}>Igreja Renovada</span></p>
+          <p className={styles.church}><span className={styles.churchName}>Igreja Renovada</span> &copy; 2022 </p>
           <p className={styles.developer}>Desenvolvido por: <a href="" className={styles.personalWebsite}>Eriquy Jhordan</a></p>
         </div>
       </div>
